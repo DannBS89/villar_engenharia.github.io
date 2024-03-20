@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" />
+<title>Slideshow de Fotos</title>
+
+<style>
+  .slideshow-container {
+    max-width: 600px;
+    
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {
+    display: none;
+
+  }
+
+  img {
+    width: 100%;
+    width: 500px;
+    height: 500px;
+  }
+</style>
+
+</head>
+<body>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="p2.png" alt="Imagem 1">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="p3.jpg" alt="Imagem 2">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="p1.jpg" alt="Imagem 3">
+  </div>
+</div>
+
+<script>
+  let slideIndex = 0;
+
+  function showSlides() {
+    let slides = document.getElementsByClassName("mySlides");
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Muda de slide a cada 2 segundos (ajuste conforme necessário)
+  }
+
+  showSlides();
+</script>
+
+</body>
+</html>
