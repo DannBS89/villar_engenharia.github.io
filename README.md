@@ -2,7 +2,7 @@
 
  About This Project
 
-This project represents my first venture into the world of programming, and it has been quite a journey! It began as a challenge to create something from scratch, and along the way, I learned invaluable skills and gained a deeper understanding of how software development works.
+This project represents my first time adventure into the world of programming, and it has been quite a journey! It began as a challenge to create something from scratch, and along the way, I learned invaluable skills and gained a deeper understanding of how software development works.
 
 As a newcomer, I encountered various hurdles, from debugging code to understanding the logic behind algorithms. Each obstacle taught me something new, and I found joy in overcoming these challenges. The process of transforming an idea into a functional application was both rewarding and inspiring.
 
